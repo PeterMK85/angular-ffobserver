@@ -1,0 +1,16 @@
+{
+  "name": "angular-ffobserver",
+  "version": "0.1.1",
+  "main": "src/angular-ffobserver.js",
+  "homepage": "https://github.com/PeterMK85/angular-ffobserver",
+  "authors": [
+    "Peter Marosi <marosi.peter.k@gmail.com>"
+  ],
+  "description": "Fontfaceobserver angular wrapper directive",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}

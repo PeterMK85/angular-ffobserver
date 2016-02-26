@@ -1,0 +1,45 @@
+{
+  "name": "angular-ffobserver",
+  "version": "0.1.3",
+  "description": "Fontfaceobserver Angular >= 1.4 wrapper directive",
+  "main": "src/angular-ffobserver.js",
+  "scripts": {
+    "jshint": "jshint src || true",
+    "jscs": "jscs src",
+    "test": "npm run jshint && npm run jscs",
+    "uglify": "uglifyjs src/angular-ffobserver.js -o angular-ffobserver.min.js -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterMK85/angular-ffobserver.git"
+  },
+  "keywords": [
+    "angular",
+    "fontfaceobserver",
+    "FOIT",
+    "load performance"
+  ],
+  "author": "Peter Marosi <marosi.peter.k@gmail.com> (http://ilovepaint.hu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterMK85/angular-ffobserver/issues"
+  },
+  "homepage": "https://github.com/PeterMK85/angular-ffobserver#readme",
+  "devDependencies": {
+    "angular-mocks": "^1.5.0",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "jscs": "^2.10.1",
+    "jshint": "latest",
+    "karma": "^0.13.21",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.4",
+    "uglify-js": "^2.6.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-cookies": "^1.5.0",
+    "fontfaceobserver": "^1.6.4"
+  }
+}
